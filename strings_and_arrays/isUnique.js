@@ -1,7 +1,7 @@
 const str1 = "abcde"
 const str2 = "abbcde"
 const arr1 = [1, 2, 3]
-const arr2 = [1, 2, 3, 2]
+const arr2 = [1, 2, 3, 1]
 
 function isUnique(str) {
   let final = []
