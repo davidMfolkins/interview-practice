@@ -25,3 +25,13 @@ function palindrome(str) {
   return reverseStr === lowRegStr;
 }
 palindrome("A man, a plan, a canal. Panama");
+
+//Lowercase the string and use the RegExp to remove unwanted characters from it
+//var lowRegStr = "amanaplanacanalpanama";
+//Use the same chaining methods with built-in functions from the previous article 'Three Ways to Reverse a String in JavaScript'
+// lowRegStr.split('') = "amanaplanacanalpanama".split('') = ["a", "m", "a", "n", "a", "p", "l", "a", "n", "a", "c", "a", "n", "a", "l", "p", "a", "n", "a", "m", "a"]
+// ["a", "m", "a", "n", "a", "p", "l", "a", "n", "a", "c", "a", "n", "a", "l", "p", "a", "n", "a", "m", "a"].reverse() = ["a", "m", "a", "n", "a", "p", "l", "a", "n", "a", "c", "a", "n", "a", "l", "p", "a", "n", "a", "m", "a"]
+// ["a", "m", "a", "n", "a", "p", "l", "a", "n", "a", "c", "a", "n", "a", "l", "p", "a", "n", "a", "m", "a"].join('') = "amanaplanacanalpanama"
+// So, "amanaplanacanalpanama".split('').reverse().join('') = "amanaplanacanalpanama";
+// And, var reverseStr = "amanaplanacanalpanama";
+//Check if reverseStr is strictly equals to lowRegStr and return a Boolean
