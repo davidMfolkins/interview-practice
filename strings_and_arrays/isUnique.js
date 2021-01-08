@@ -17,3 +17,8 @@ function isUnique(str) {
 }
 
 isUnique(arr2)
+
+// will take in a string or array
+// loop through it and check if eac index exists in str/array
+// if it doesnt, return true and continue loop
+//if it does, return false and end 
