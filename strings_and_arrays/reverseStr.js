@@ -19,3 +19,10 @@ reverseStr(str1)
         Fourth iteration:   i = 2 - 1 = 1,         newString = "oll" + "e" = "olle"
         Fifth iteration:    i = 1 - 1 = 0,         newString = "olle" + "h" = "olleh"
     End of the FOR Loop*/
+
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
+reverseString("hello");
+
+//
