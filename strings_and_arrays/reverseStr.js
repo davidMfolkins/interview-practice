@@ -23,7 +23,7 @@ reverseStr(str1)
 function reverseString(str) {
   return str.split("").reverse().join("");
 }
-reverseString("hello");
+reverseString(str1);
 
 //se the split() method to return a new array
 // ["h", "e", "l", "l", "o"]
