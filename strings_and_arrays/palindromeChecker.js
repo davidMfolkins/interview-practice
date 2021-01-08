@@ -14,3 +14,6 @@ function palindromeChecker(str) {
 }
 
 palindromeChecker(str2)
+
+//Loop through str backwards, create new string backwards
+//compare if new string is the same as old string
