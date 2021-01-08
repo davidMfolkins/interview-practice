@@ -7,3 +7,6 @@ function URLify(str) {
 }
 
 URLify(str1)
+
+//Trim the string to remove any whitespace at beginning or end
+// replace all whitespace with %20
